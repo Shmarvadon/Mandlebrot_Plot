@@ -18,13 +18,16 @@
     <ClCompile Include="Mandlebrot_Plot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CPU_Plotter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPCPP_Plotter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="OLD.txt">
+    <ClInclude Include="Plotters.h">
       <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="SingleThreadPlot.txt">
-      <Filter>Source Files</Filter>
-    </Text>
+    </ClInclude>
   </ItemGroup>
 </Project>
