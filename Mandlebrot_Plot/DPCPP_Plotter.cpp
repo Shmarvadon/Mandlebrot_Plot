@@ -111,7 +111,8 @@ void PlotSet_DPCPP(
 	img_buff.~buffer();
 
 	// save the image and do a check to ensure it is saved properly.
-	bool check = cv::imwrite("./TestImage.png", image);
+	std::string FileWriteName = "./" + FileName + ".png";
+	bool check = cv::imwrite(FileWriteName, image);
 
 	if (!check) {
 		std::cout << "Something went wrong." << std::endl;
